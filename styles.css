@@ -1,0 +1,175 @@
+/*#2E294E
+#1B998B
+
+#EDD382*/
+
+
+body {
+    background-color: #D9321C;
+    text-align: center;
+}
+
+.title {
+    background-color: #FC9E4F;
+    text-align: center;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border: 15px #F2F3AE double;
+}
+
+.questions {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* INPUT STYLING */
+input,
+select {
+    background-color: #FC9E4F;
+    border: 0px;
+    padding: 10px;
+    font: 25px VT323;
+    transition: 0.1s;
+    border-radius: 10px;
+}
+
+select {
+    width: 180px;
+}
+
+select:focus {
+    background-color: #F2F3AE;
+    color: #e64f3c;
+}
+
+input:hover {
+    background-color: #F2F3AE;
+    color: #FC9E4F;
+}
+
+input:focus {
+    background-color: #F2F3AE;
+    color: #e64f3c;
+}
+
+::placeholder {
+    color: #D9321C;
+}
+
+
+/* BUTTON STYLING */
+button {
+    background-color: #FC9E4F;
+    padding: 10px;
+    font: 25px VT323;
+    width: 150px;
+    border: 3px;
+    color: #F2F3AE;
+    transition: 0.2s;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #F2F3AE;
+    color: #FC9E4F;
+    box-shadow: 0 5px #FC9E4F;
+}
+
+button:active {
+    transform: translateY(4px);
+}
+
+.about {
+    width: 250px;
+    background-color: #F2F3AE;
+    color: #FC9E4F;
+    border: 3px #F2F3AE solid;
+}
+
+.about:hover {
+    background-color: #FC9E4F;
+    color: #F2F3AE;
+    border: 3px #F2F3AE solid;
+}
+
+/* IMAGE STYLING */
+img {
+    width: 500px;
+    border: 15px #F2F3AE double;
+}
+
+.tallyhall {
+    width: 320px;
+}
+
+.animal-pictures {
+    width: 250px;
+    margin: 7px;
+}
+
+.row1 {
+    display: block;
+}
+
+.row2-animals {
+    display: block;
+}
+
+.row3-animals {
+    display: block;
+}
+
+.zubin-img,
+.rob-img,
+.ross-img,
+.andrew-img,
+.joe-img {
+    display: none;
+}
+
+.special-img {
+    height: 300px;
+}
+
+/* TEXT STYLING */
+h1,
+h2,
+p {
+    color: #F2F3AE;
+}
+
+h1 {
+    font: 70px VT323;
+    font-weight: 100;
+}
+
+h2 {
+    font: 40px VT323;
+}
+
+p {
+    font: 35px VT323;
+}
+
+.result {
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 30px;
+}
+
+.about-p {
+    display: none;
+}
+
+.counter {
+    display: none;
+    font-size: 30px;
+}
+
+.scroll-text {
+    display: none;
+    font-size: 30px;
+}
